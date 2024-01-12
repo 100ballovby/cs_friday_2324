@@ -3,7 +3,7 @@ def countdown(n):
         return  # выход из рекурсии (потому что return останавливает работу функции)
     else:  # рекурсивный случай (то, что нужно повторять)
         print(n)
-        countdown(n - 1)
+        return countdown(n - 1)
 
 
 countdown(6)
