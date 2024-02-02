@@ -40,7 +40,7 @@ bool is_sorted_v2(int a[], int l) {
     return true;
 }
 
-int main() {
+int arrays_start() {
     const int len = 10;
     int arr[len] = { 4, 12, 89, 2, 6, 4, 17, 4, 2, 74 };
     int arr2[len] = { 10, 23, 56, 78, 94, 101, 374, 428, 490, 621 };
